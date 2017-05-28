@@ -82,7 +82,7 @@ $d_{\odot\oplus}=1,49597870\times10^{11}$ meter\\
 $M_{\odot \text{loss}}=$ \ldots ?\\
 
 Massa total yang telah hilang:
-$$M_{\odot loss}=\dot{m}_{\odot \text{loss}}\Delta t$$ 
+$$M_{\odot \text{loss}}=\dot{m}_{\odot \text{loss}}\Delta t$$ 
 $\dot{m}_{\odot \text{loss}}$ menyatakan massa yang hilang per satuan waktu; analogi debit dalam kasus fluida:
 $$\dot{m}_{\odot \text{loss}}=\rho_p v_p A \quad \text{kg/s}$$
 $\rho$ menyatakan kerapatan proton di dekat Bumi, sedangkan $A$ menyatakan luas penampang yang ditembus proton di dekat Bumi, $A=4\pi d_{\odot\oplus}^2$
@@ -218,19 +218,19 @@ Sehingga jawaban paling tepat D.
 \begin{enumerate}[a)]
 \item Cara pertama yang salah: percepatan gerak roket dianggap tetap sebesar 2 m/s$^2$ ke atas; perubahan ketinggian terhadap kecepatan lepas diabaikan.
 \begin{eqnarray*}
-v = v_0 + at &=& \sqrt{\frac{2GM}{R^2}}\\
-2t &=& 11200\\
-t &=& 5600\text{   s} = 93,33 \text{  menit}
+v = v_0 + at &=& \sqrt{\frac{2GM_{\oplus}}{R_{\oplus}}}\\
+2t &=& 11202\\
+t &=& 5601\text{   s} = 93,35 \text{  menit}
 \end{eqnarray*}
-Ketinggian yang sudah dicapai selama 93,33 menit adalah 31360 km, tentu hal ini tidak dapat diabaikan dalam menentukan kecepatan lepasnya!
+Ketinggian yang sudah dicapai selama 93,35 menit adalah $\sim 31370$ km ($\sim 5R_{\oplus}$), tentu hal ini tidak dapat diabaikan dalam menentukan kecepatan lepasnya!
 
 \item Cara kedua yang masih salah: percepatan gerak roket dianggap tetap sebesar 2 m/s$^2$ ke atas; memasukkan faktor perubahan ketinggian terhadap nilai kecepatan lepas yang diperlukan ke dalam persamaan.
 \begin{eqnarray*}
-v = v_0 + at &=& \sqrt{\frac{2GM}{R+(h_0 + v_0 t + \frac{1}{2} a t^2)}}\\
+v = v_0 + at &=& \sqrt{\frac{2GM_{\oplus}}{R_{\oplus}+(h_0 + v_0 t + \frac{1}{2} a t^2)}}\\
 a^2 t^2 &=& \frac{2GM}{R + \frac{1}{2} a t^2}\\
-\frac{1}{2} a^3 t^4 + R a^2 t^2 - 2GM &=& 0, \qquad \text{gunakan  } x = t^2\\
-\frac{1}{2} a^3 x^2 + R a^2 x - 2GM &=& 0, \qquad \text{dapat dicari solusinya menggunakan rumus } abc\\
-t &=& \sqrt{x} = 56,055 \quad \text{menit}
+\frac{1}{2} a^3 t^4 + R_{\oplus} a^2 t^2 - 2GM_{\oplus} &=& 0, \qquad \text{gunakan  } x = t^2\\
+\frac{1}{2} a^3 x^2 + R_{\oplus} a^2 x - 2GM_{\oplus} &=& 0, \qquad \text{dapat dicari solusinya menggunakan rumus } abc\\
+t &=& \sqrt{x} = 56 \quad \text{menit}
 \end{eqnarray*}
 
 \item Kedua cara di atas mengasumsikan percepatan gerak yang konstan, padahal dengan asumsi roket pendorongnya yang ajeg, maka seharusnya besarnya gaya yang bernilai konstan (bukan percepatan). Ketika wahana bergerak naik dengan nilai gaya yang tetap, \textit{padahal nilai $g$ berubah seiring dengan bertambah tingginya wahana}, maka percepatan geraknya juga seharusnya berubah. Apalagi ditambah ketika bergerak ada sejumlah massa yang dibuang, beratnya pun ikut berubah.
@@ -354,7 +354,7 @@ a = \sqrt[3]{MT^2} = \sqrt[3]{0,08 \cdot \left(\frac{2,5}{365,25}\right)^2} = 0,
 \item Pernyataan ketiga kurang jelas maksudnya, apakah maksudnya paralaks horizon?
 \item Pernyataan keempat benar,  2,4 hari.
 \begin{eqnarray*}
-T_{\sin} = \frac{T_1 T_2}{T_2 - T_1} = \frac{1,5 \cdot 4}{4 - 1,5} = 2,4 \quad \text{hari}
+T_{\text{sino}} = \frac{T_{\text{sid1}} T_{\text{sid2}}}{T_{\text{sid2}} - T_{\text{sid1}}} = \frac{1,5 \cdot 4}{4 - 1,5} = 2,4 \quad \text{hari}
 \end{eqnarray*}
 \end{itemize}
 
@@ -706,8 +706,8 @@ Planet dalam terlihat ``setengah'' menurut planet luar; seperti Bulan terlihat s
 
 Sepertinya pembuat soal sengaja membuat periode kedua planet merupakan kelipatan bilangan bulat. Artinya okultasi setelah $\tau$ akan terjadi lagi di kuadran yang sama `tepat' di titik yang sama pula, yaitu ketika planet luar sudah mengorbit tepat sekali, sedangkan planet dalam mengorbit tepat 4 kali. 
 \begin{itemize}
-\item Busur sapuan planet dalam $= 4 \times 360\degree = 1440\degree$
-\item Busur sapuan planet luar $= 360\degree$
+\item Busur sapuan planet dalam $= 4 \times 2\pi = 8\pi \text{  rad} = 1440\degree$
+\item Busur sapuan planet luar $= 2\pi \text{  rad} = 360\degree$
 \end{itemize}
 
 
